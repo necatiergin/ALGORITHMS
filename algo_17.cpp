@@ -1,3 +1,7 @@
+// std::iota
+// std::for_each
+// std::binary_search
+
 #include <vector>
 #include <numeric>
 #include <cstdlib>
