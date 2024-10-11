@@ -1,3 +1,6 @@
+// std::copy
+// std::copy_backward
+
 #include <vector>
 #include <algorithm>
 #include <iostream>
