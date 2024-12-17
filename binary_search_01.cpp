@@ -17,7 +17,7 @@ int main()
 		ivec.erase(ivec.begin() + rand() % ivec.size());
 	}
 
-	for_each(ivec.begin(), ivec.end(), [](int i) {std::cout << i << ' '; });
+	std::for_each(ivec.begin(), ivec.end(), [](int i) {std::cout << i << ' '; });
 		
 	std::cout << "\nenter the searched value: ";
 	int key;
