@@ -11,7 +11,7 @@
 int main()
 {
 	std::vector<int> ivec(100);
-	iota(ivec.begin(), ivec.end(), 0);
+	std::iota(ivec.begin(), ivec.end(), 0);
 
 	while (ivec.size() != 40) {
 		ivec.erase(ivec.begin() + rand() % ivec.size());
@@ -24,5 +24,5 @@ int main()
 	std::cin >> key;
 
 	std::cout <<
-		(binary_search(ivec.begin(), ivec.end(), key) ? "found" : "not found");
+		(std::binary_search(ivec.begin(), ivec.end(), key) ? "found" : "not found");
 }
