@@ -1,13 +1,13 @@
-#include <algorithm>
 #include <string>
+#include <algorithm>
 #include <iostream>
 
 int main()
 {
-	//          01234567
-	std::string str("necati ergin");
-
-	std::cout << '|' << str << '|' << '\n';
-	rotate(str.begin(), str.begin() + 7, str.end());
-	std::cout << '|' << str << '|' << '\n';
+	std::string s{ "necatiergin" };
+	std::cout << '|' << s << "|\n";
+	std::rotate(s.begin(), next(s.begin(), 6), s.end());
+	std::cout << '|' << s << "|\n";
 }
+
+
