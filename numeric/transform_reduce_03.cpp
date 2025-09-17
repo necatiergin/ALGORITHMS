@@ -2,6 +2,8 @@
 #include <numeric>
 #include <iostream>
 
+//    T transform_reduce(It1 first1, It1 last1, It2 first2, T init, BinaryOp1 reduce, BinaryOp2 transform);
+
 int main()
 {
     std::vector<int> x{ 1, 2, 10, 5 };
