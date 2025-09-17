@@ -8,7 +8,7 @@
 int main()
 {
 	std::string input{"0123456789"};
-	std::cout << "enter the distance foe the sample: ";
+	std::cout << "enter the distance for the sample: ";
 	int dist;
 	std::cin >> dist;
 
