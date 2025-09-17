@@ -2,6 +2,8 @@
 #include <numeric>
 #include <iostream>
 
+//T transform_reduce(Iter1 first1, Iter1 last1, Iter2 first2, T init);
+
 int main()
 {
 	std::vector a{ 1, 2, 3 };
